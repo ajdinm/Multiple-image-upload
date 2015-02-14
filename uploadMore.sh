@@ -1,5 +1,6 @@
 #!/bin/bash
-rm -f paths
+
+rm -f urls
 
 FILE=`zenity	--file-selection --multiple --title="Select a Images to upload"`
 
